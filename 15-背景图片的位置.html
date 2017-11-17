@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			div{
+				width:300px;
+				height:300px;
+				border:10px solid red;
+				background-image:url(images/img1.jpg);
+				background-repeat:no-repeat;
+				background-position:50px 50px;
+			}
+		</style>
+	</head>
+	<body>
+		<!--
+			background-position:x y;		背景图片的位置
+				传数值:(背景图片离左上角的距离)
+					x:
+						正值    从容器的左边往右边走的距离
+						负值    从容器的左边往左边走的距离
+					y:
+						正值    从容器的上边往下边走的距离
+						负值    从容器的上边往上边走的距离
+				传关键字:
+					x:
+						left    图片在容器的左边
+						center  图片在容器x轴的中心
+						right   图片在容器的右边
+					y:
+						top     图片在容器的上边
+						center  图片在容器y轴的中心
+						bottom  图片在容器的下边
+
+				如果只传一个值的话，那另一个值默认为center
+				如果两个值都不写的话，那默认为0，0点，左上角
+		-->
+		<div></div>
+	</body>
+</html>
